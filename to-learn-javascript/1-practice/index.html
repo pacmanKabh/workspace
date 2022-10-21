@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1</title>
+    <style>
+        p {
+            font-family: 'helvetica neue', Helvetica, sans-serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid #eb745b;
+            background: #eb745a;
+            color: #ffffff;
+            box-shadow: 1px 1px 2px #dadada;
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p>Player 1: Zoe</p>
+
+    <script>
+        const para = document.querySelector('p');
+        
+        para.addEventListener('click', updateName);
+
+        function updateName() {
+            let name = prompt('Enter a new name');
+            para.textContent = 'Player 1: ' + name;
+        }
+    </script>
+</body>
+</html>
