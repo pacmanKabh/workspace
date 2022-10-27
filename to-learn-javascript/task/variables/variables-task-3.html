@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables: Task 3</title>
+    <style>
+        p {
+            color: purple;
+            margin: 0.5em 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <section class="preview"></section>
+    <script>
+        // Add your code here
+        // Solución de los 2 errores mostrados
+        /*
+        const myName = 'Chris';
+        let myAge = 42;
+        */
+
+        const myName = 'Default';
+        myName = 'Chris';
+
+        let myAge = '42';
+
+        // Don't edit the code below here!
+        const section = document.querySelector('section');
+
+        const para1 = document.createElement('p');
+        const para2 = document.createElement('p');
+        para1.textContent = myName;
+        para2.textContent = `En 20 años, tendrá la edad de ${myAge + 20} años.`;
+        section.appendChild(para1);
+        section.appendChild(para2);
+    </script>
+</body>
+</html>
