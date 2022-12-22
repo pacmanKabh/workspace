@@ -1,0 +1,134 @@
+body {
+    background-color: #FEDB39;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header h1 {
+    color: #D61C4E;
+    font-size: 8em;
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+header nav ul li a{
+    color: #293462;
+    font-size: 1.8em;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+/* Cuerpo */
+main {
+    color: #293462;
+    margin: auto;
+    width: 80%;
+}
+
+section {
+    font-size: 2em;
+}
+
+section h2 sup {
+    font-size: 0.4em;
+}
+
+section h2 sup a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #D61C4E;
+    color: #ffffff;
+}
+#personajes div {
+    background-color: #D61C4E;
+    border-radius: 1em;
+    display: inline-block;
+    font-weight: 900;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}
+
+#personajes div img {
+    height: 400px;
+    width: 200px;
+}
+
+#personajes div figure {
+    color: #ffffff;
+}
+
+/* Estilo para la galeria usando <ul> */
+/* #personajes ul li {
+    display: inline-block;
+}
+
+#personajes img {
+    width: 300px;
+    height: 600px;
+}
+
+#personajes figure {
+    color: #293462;
+} */
+
+#episodios table {
+    border: 2px solid #D61C4E;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#episodios th {
+    border-bottom: 2px solid #D61C4E;
+    padding: 1.5em 0.5em;
+    text-align: center;
+}
+
+#episodios td {
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #293462;
+    color: #ffffff;
+    padding: 2em;
+    text-align: center;
+}
+
+footer h5 {
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+footer h5 a {
+    color: #ffffff;
+}
+
+footer aside a{
+    text-decoration: none;
+}
+
+footer aside a img {
+    width: 50px;
+}
