@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 15em;
+    padding: 3em;
+    margin: auto;
+}
+
+#arbol-navidad {
+    text-align: center;
+}
+
+#arbol-navidad table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.black {
+    background-color: #343434;
+}
+
+.yellow {
+    background-color: #F9D923;
+}
+
+.red {
+    background-color: #EB5353;
+}
+
+.green {
+    background-color: #36AE7C;
+}
+
+.brown {
+    background-color: #9E7676;
+}
+
+#arbol-navidad p strong {
+    font-size: 1.5em;
+    color: #187498;
+    font-weight: 900;
+}
+
+footer {
+    text-align: center;
+}
+footer h5 {
+    font-size: 1em;
+    color: #343434;
+}
