@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+header div {
+  display: inline-block;
+  margin: 0.5em 4em;
+  text-align: center;
+}
+.logo {
+  width: 100px;
+}
+#search {
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  padding: 0.5em;
+  text-align: center;
+  width: 200px;
+}
+nav img {
+  width: 25px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+/* Cuerpo */
+main {
+  margin: auto;
+  width: 80%;
+}
+section article {
+  display: inline-block;
+}
+
+/* Cabecera */
+#cabecera {
+  display: inline-block;
+  width: 100%;
+}
+#cab_perfil{
+  margin: 0;
+  text-align: center;
+  width: 25%;
+}
+#cab_perfil img{
+  border-radius: 50%;
+  width: 150px;
+}
+#cab_detalle {
+  margin: 0;
+  width: 70%;
+}
+#det_usuario {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+#det_usuario span {
+  margin-right: 4em;
+}
+#det_usuario button {
+  background-color: #fff;
+  border: 2px solid #b6b6b6;
+  border-radius: 0.5em;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.5em 2em;
+}
+#det_usuario a {
+  text-decoration: none;
+}
+#det_numeros p{
+  display: inline-block;
+  font-size: 1.2em;
+  margin-right: 3em;
+}
+#det_numeros p span{
+  font-weight: 700;
+}
+
+/* Historias */
+#historia {
+  margin: 2em 0;
+}
+#historia div{
+  display: inline-block;
+}
+.his_circulo {
+  margin: 0 1em;
+  text-align: center;
+}
+.his_circulo img {
+  border: 0.2em solid #b6b6b6;
+  border-radius: 50%;
+  padding: 0.2em;
+  width: 5em;
+}
+hr {
+  border: 1px solid #b6b6b6;
+}
+
+/* Muro */
+#muro_title {
+  text-align: center;
+}
+#muro_title img {
+  width: 15px;
+}
+#muro_title ul li {
+  display: inline-block;
+}
+#muro_title ul li a {
+  color: #b6b6b6;
+  margin-right: 2em;
+  text-decoration: none;
+}
+#muro {
+  text-align: center;
+}
+#muro .muro_foto {
+  display: inline-block;
+}
+.muro_foto img {
+  margin: 0.7em;
+  width: 330px;
+}
