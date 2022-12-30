@@ -1,0 +1,185 @@
+:root {
+  --fondo: #1f1f20;
+  --texto: #f2f0fc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--texto);
+}
+
+img {
+  width: 1.5em;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* BARRA LATERAL */
+#barra_lateral {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100vh;
+  float: left;
+  padding: 1em;
+  background-color: #0a0a0a;
+}
+
+.logo {
+  margin-bottom: 1em;
+}
+
+.logo a {
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.btn-redactar img {
+  width: 1em;
+}
+
+.btn-redactar button {
+  background-color: #fff;
+  color: #292929;
+  font-weight: 800;
+  padding: 1em;
+  border: none;
+  border-radius: 1em;
+}
+
+.cont-categorias, .cont-etiquetas {
+  padding: 1.5em 0;
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+.cont-categorias a img, .cont-etiquetas a img{
+  width: 1.1em;
+  padding: 0 1em;
+}
+
+.cont-categorias a, .cont-etiquetas a {
+  display: block;
+  margin: 0.5em 0;
+}
+
+/* CONTENIDO GMAIL */
+#contenido_gmail {
+  background-color: #0a0a0a;
+  box-sizing: border-box;
+  width: 80%;
+  float: right;
+  height: 100vh;
+  padding: 1em;
+}
+
+/* cabecera */
+.buscador {
+  float: left;
+  background-color: #807c7c;
+  padding: 0.5em;
+  border-radius: 0.6em;
+}
+
+.buscador img {
+  width: 1.1em;
+}
+
+.buscador input {
+  border: none;
+  width: 30em;
+}
+
+.configuracion {
+  float: right;
+}
+
+.configuracion ul li {
+  display: inline-block;
+}
+
+.configuracion img {
+  width: 1.1em;
+}
+
+/* contenedor_mensaje */
+.contenedor_mensaje {
+  clear: both;
+  background-color: #5f5f5f;
+  /* opacity: 0.7; */
+  border-radius: 1em;
+}
+
+.accesos_directos, .titulos, .mensajes {
+  padding-left: 1em;
+}
+
+.accesos_directos ul, .titulos ul {
+  padding: 0;
+}
+
+.acceso_1 {
+  float: left;
+}
+
+.acceso_1 ul li, .acceso_2 ul li, .titulos ul li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.acceso_2 {
+  float: right;
+}
+
+.titulos {
+  clear: both;
+  text-transform: capitalize;
+  font-weight: 900;
+  border-bottom: 1px solid #000;
+  padding-top: 0.5em;
+}
+
+.titulos span {
+  background-color: #fff;
+  color: #000;
+  border-radius: 2em;
+  padding: 0.3em;
+  font-weight: 900;
+}
+
+.mensajes {
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.mensajes p .icono_mensaje {
+  box-sizing: border-box;
+  width: 10%;
+}
+
+.mensajes p .titulo_mensaje {
+  padding: 0 1em;
+  box-sizing: border-box;
+  width: 20%;
+}
+
+.mensajes p .contenido_mensaje {
+  padding: 0 1em;
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.mensajes p .fecha_mensaje {
+  box-sizing: border-box;
+  width: 10%;
+  float: right;
+}
