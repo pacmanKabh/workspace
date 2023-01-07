@@ -1,0 +1,177 @@
+:root {
+  --clr-black: #323643c9;
+  --clr-blue: #004ca3;
+  --clr-white: #fff;
+
+  --clr-uno: #323643;
+  --clr-dos: #606470;
+  --clr-tres: #93DEFF;
+  --clr-cuatro: #F7F7F7;
+
+  --f-size-09em: 0.9em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f7f6f6;
+  box-sizing: border-box;
+  float: left;
+  padding-left: 1.5em;
+  width: 15%;
+}
+
+main {
+  box-sizing: border-box;
+  float: right;
+  width: 85%;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+  padding: 0 0.2em;
+}
+
+a {
+  color: var(--clr-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: revert;
+}
+
+/* =============HEADER============= */
+header ul li {
+  display: block;
+}
+
+header ul {
+  padding-top: 1em;
+}
+
+.titulo-lista {
+  border-bottom: 1px solid #6d6d6d;
+  color: #5f5f5f;
+}
+
+/* =============NAVEGACION============= */
+#container-navegacion {
+  background-color: #f7f6f6;
+  position: fixed;
+  width: inherit;
+  z-index: 100;
+}
+
+.navegacion-enlace {
+  font-size: var(--f-size-09em);
+  padding: 1em;
+  text-align: right;
+}
+
+.navegacion-enlace img {
+  width: 1em;
+}
+
+.navegacion-buscador {
+  clear: both;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.navegacion-buscador input {
+  clear: both;
+  padding: 0.3em;
+  width: 25em;
+}
+
+/* =============BIENVENIDA WIKIPEDIA============= */
+.bienvenida-wikipedia {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg');
+  padding: 0;
+  position: relative;
+}
+
+.bienvenida-wikipedia div {
+  display: inline-block;
+}
+
+.bienvenida-wikipedia-mensaje {
+  background: linear-gradient(to right, var(--clr-white), #ffffffb9);
+  box-sizing: border-box;
+  padding: 1.5em 0;
+  padding-left: 1.5em;
+  width: 39%;
+}
+
+.bienvenida-wikipedia-enlace {
+  box-sizing: border-box;
+  padding-right: 1.5em;
+  text-align: right;
+  width: 60%;
+}
+
+.bienvenida-wikipedia-enlace ul {
+  margin-top: 1em;
+}
+
+.bienvenida-wikipedia-enlace ul a {
+  color: var(--clr-uno);
+  font-weight: 900;
+  padding: 0.5em;
+}
+
+.bienvenida-wikipedia-enlace ul a:hover {
+  background-color: #dadada2d;
+  color: var(--clr-blue);
+  text-decoration: none;
+}
+
+/*============= General de los articulos =============*/
+.articulos {
+  align-items: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  place-content: stretch center;
+  justify-content: flex-start;
+}
+
+.bienvenida-wikipedia, .contenedor-articulo {
+  border: 2px solid var(--clr-black);
+  box-sizing: border-box;
+  margin: 0.5em;
+  padding: 1.5em;
+}
+
+/* Creando espacio en el top para que el buscador fixed quede mejor */
+.bienvenida-wikipedia {
+  margin-top: 8em;
+}
+
+/* =============ARTICULO DESTACADO============= */
+#articulo-destacado {
+  box-sizing: border-box;
+  width: 70%;
+}
+
+/* =============ACTUALIDAD============= */
+#actualidad {
+  box-sizing: border-box;
+  width: 27%;
+}
+
+#actualidad ul li {
+  display: block;
+}
+
+/* =============ARTICULO BUENO============= */
+#articulo-bueno {
+  box-sizing: border-box;
+  width: 70%;
+}
+
