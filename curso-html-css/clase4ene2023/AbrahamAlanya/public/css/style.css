@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+:root {
+  /* primario */
+  --clr-p-uno: #293462;
+  --clr-p-dos: #1CD6CE;
+  --clr-p-tres: #FEDB39;
+  --clr-p-cuatro: #D61C4E;
+
+  /* secundario */
+  --clr-s-uno: #B1B2FF;
+  --clr-s-dos: #AAC4FF;
+  --clr-s-tres: #D2DAFF;
+  --clr-s-cuatro: #EEF1FF;
+
+  --font-family: 'Zilla Slab', serif;
+}
+
+body {
+  background: linear-gradient(to right, var(--clr-s-uno),  var(--clr-s-cuatro));
+  /* background: linear-gradient(to right, var(--clr-p-cuatro), var(--clr-p-tres)); */
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  box-sizing: border-box;
+  font-size: 2em;
+  font-weight: 900;
+  height: 10vh;
+  padding: 0.5em;
+}
+
+main {
+  background-color: var(--clr-s-cuatro);
+  border-top-left-radius: 2.5em;
+  border-top-right-radius: 2.5em;
+  box-sizing: border-box;
+  font-size: 1em;
+  height: 80vh;
+  overflow: scroll;
+  padding: 1em;
+}
+
+footer {
+  background-color: var(--clr-s-cuatro);
+  box-sizing: border-box;
+  height: 10vh;
+  padding: 0.5em;
+}
+
+/* =============PANTALLA PRINCIPAL============= */
+#container-principal {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+#container-principal a {
+  background-color: var(--clr-p-cuatro);
+  border-radius: 1em;
+  color: var(--clr-s-cuatro);
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 900;
+  padding: 1em;
+  text-decoration: none;
+}
+
+/* =============CONTACTO============= */
+.contacto {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 0.5em;
+}
+
+.contacto-perfil {
+  background-color: var(--clr-s-cuatro); 
+  border-radius: 1.5em;
+  margin-right: 1em;
+  padding: 0.1em;
+}
+
+.contacto-perfil  img {
+  border-radius: 1.5em;
+  width: 3em;
+}
+
+.contacto-mensaje {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.contacto-mensaje a {
+  color: #000;
+  text-decoration: none;
+}
+.contacto-mensaje a span {
+  display: block;
+}
+
+.contacto-mensaje .titulo {
+  font-weight: 900;
+}
+
+.contacto-mensaje .mensaje {
+  font-weight: 400;
+}
+
+/* =============CHAT============= */
+.cabecera-chat a {
+  text-decoration: none;
+}
+
+.cabecera-chat a img {
+  width: 1em;
+}
+
+.cabecera-chat-titulo {
+  font-size: 0.7em;
+}
+
+.mensaje-recibido, .mensaje-enviado {
+  padding-bottom: 1em;
+}
+
+.mensaje-recibido {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.mensaje-recibido img {
+  background-color: var(--clr-s-cuatro); 
+  border-radius: 1.5em;
+  width: 3em;
+}
+
+.mensaje-recibico-model1, .mensaje-enviado-model1 {
+  padding: 1.5em;
+  border-radius: 2.5em;
+}
+
+.mensaje-recibico-model1 {
+  background: var(--clr-s-dos);
+  border-end-start-radius: 0;
+  width: 50%;
+}
+
+.mensaje-enviado {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mensaje-enviado-model1 {
+  background: var(--clr-s-tres);
+  border-bottom-right-radius: 0;
+  width: 50%;
+}
+
+/* =============FOOTER ICONOS============= */
+footer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 0.5em;
+  text-align: center;
+}
+
+footer ul li a {
+  color: var(--clr-p-uno);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+footer ul li img {
+  width: 2em;
+}
+
+footer ul li figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============FOOTER MENSAJE============= */
+.mensaje-chat {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.mensaje-chat img {
+  width: 2em;
+  padding: 0 1em;
+}
+
+.mensaje-chat input {
+  padding: 0.5em;
+  border-radius: 1em;
+}
